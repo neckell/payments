@@ -1,0 +1,26 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+*.so.*
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go Modules
+vendor/
+
+# Air tool
+.tmp/
+air
+build-errors.log
